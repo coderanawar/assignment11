@@ -1,0 +1,32 @@
+html{
+    scroll-behavior: smooth;
+ }
+.box{
+width: 400px;
+height: 200px;
+margin: 100px auto;
+}
+h1{
+
+}
+h1::before{
+content: "AGE";
+color: red;
+border: 1px solid black;
+margin-right: 10px;
+padding: 5px;
+border-radius: 5px;
+}
+
+h1::after{
+content: "PORE";
+color: red;
+border: 1px solid black;
+margin-left: 10px;
+padding: 5px;
+border-radius: 5px;
+}
+p::first-line{
+    /* font-size: 50px; */
+    color: red;
+}
